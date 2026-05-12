@@ -1,10 +1,6 @@
 Development & Testing Enviroment
 # TERRAFORM MODULAR ARCHITECTURE
 
-Enterprise-grade Azure landing zone architecture designed using Terraform and Zero Trust principles to provide secure, scalable, and governance-driven cloud foundations for modern workloads.
-
----
-
 # Overview
 
 This project demonstrates the design and implementation of a modular Terraform design patterns.
@@ -41,29 +37,6 @@ The primary objectives of this Modular design were:
 
 # Repository Structure
 ```plaintext
-azure-enterprise-landing-zone/
-│
-├── environments/
-│   ├── dev/
-│   ├── test/
-│   └── prod/
-│
-├── modules/
-│   ├── networking/
-│   ├── security/
-│   ├── compute/
-│   ├── database/
-│   ├── storage/
-│   ├── monitoring/
-│   ├── identity/
-│   └── governance/
-│
-├── policies/
-├── diagrams/
-├── docs/
-├── pipelines/
-└── tests/
-
 
 azure-enterprise-landing-zone/
 │
@@ -217,10 +190,7 @@ azure-enterprise-landing-zone/
 │   └── hub-spoke/
 │
 ├── tests/
-│   │
-│   ├── unit/
-│   ├── integration/
-│   └── compliance/
+│   
 │
 ├── .github/
 │   │
@@ -231,7 +201,6 @@ azure-enterprise-landing-zone/
 │       └── checkov.yml
 │
 ├── README.md
-├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── LICENSE
 └── .gitignore
