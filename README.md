@@ -31,7 +31,7 @@ The primary objectives of this Modular design were:
 
 # Architecture Diagram
 
-![Architecture Diagram](images/TERRAFORM MODULAR ARCHITECTURE.png)
+![Architecture Diagram](images/terraform-diagram.png)
 
 ---
 
